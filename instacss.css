@@ -27,6 +27,7 @@
   transform: scale(1.2);
 }
 
+
 .fusion-header-wrapper {
   background-color: #fff; /* Establece un fondo blanco */
 }
@@ -63,36 +64,10 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-#productos-dropdown li {
-  padding: 10px;
-}
-
-#productos-dropdown li a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  padding: 10px;
-}
-
-#productos-dropdown li a:hover {
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-
 nav {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
   border-radius: 10px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 nav li {

@@ -1,60 +1,68 @@
 .buttons {
+  position: fixed;
+  right: 8px; /* Ajusta según sea necesario */
+  bottom: 75px; /* Ajusta según sea necesario */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ajusta esta altura según tus necesidades */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: flex-end;
+  align-items: flex-end;
   text-decoration: none;
-  font-size: 28px;
-  margin-bottom: -170px;
-  margin-left: -37px;
+  font-size: 28px; /* Tamaño de la fuente fijo */
 }
 
 .buttons a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 60px; /* Tamaño fijo */
+  height: 60px; /* Tamaño fijo */
   background-color: red;
   color: white;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  margin-bottom: -170px;
-  margin-left: -37px;
+  margin-bottom: 10px; /* Espaciado entre los botones */
+}
+
+.buttons a:last-child {
+  margin-bottom: 0; /* Elimina el margen inferior del último botón */
 }
 
 .buttons a:hover {
   transform: scale(1.2);
 }
-
 #buttons {
+  position: fixed;
+  right: 8px; /* Ajusta según sea necesario */
+  bottom: 145px; /* Ajusta según sea necesario */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ajusta esta altura según tus necesidades */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: flex-end;
+  align-items: flex-end;
   text-decoration: none;
-  font-size: 28px;
-  margin-bottom: -460px;
-  margin-left: -37px;
+  font-size: 28px; /* Tamaño de la fuente fijo */
 }
 
 #buttons a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 60px; /* Tamaño fijo */
+  height: 60px; /* Tamaño fijo */
   background-color: red;
   color: white;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  margin-bottom: -460px;
-  margin-left: -37px;
+  margin-bottom: 10px; /* Espaciado entre los botones */
+}
+
+#buttons a:last-child {
+  margin-bottom: 0; /* Elimina el margen inferior del último botón */
 }
 
 #buttons a:hover {
   transform: scale(1.2);
 }
+
 
 .fusion-header-wrapper {
   background-color: #fff; /* Establece un fondo blanco */

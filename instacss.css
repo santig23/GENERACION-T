@@ -32,7 +32,7 @@
 }
 #buttons {
   position: fixed;
-  right: 8px; /* Ajusta según sea necesario */
+  right: 10px; /* Ajusta según sea necesario */
   bottom: 145px; /* Ajusta según sea necesario */
   display: flex;
   flex-direction: column; /* Apila los elementos verticalmente */

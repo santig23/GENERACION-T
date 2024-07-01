@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>BUCO</title>
         <link href="instacss.css" rel="stylesheet" type="text/css">
+        <link href="navbar/navbar.css" rel="stylesheet" type="text/css">
         <script src="https://kit.fontawesome.com/5118f03621.js" crossorigin="anonymous"></script>
         <link rel="alternate" hreflang="es-es" href="index.htm">
         <link rel="alternate" hreflang="en-us" href="en/index.htm">
@@ -541,25 +542,27 @@ Todas">
 			</a>
 
 			<!-- Navbar -->
-			<nav>
-				<ul style="list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: flex-end; align-items: center;">
-					<li style="margin-left: 20px;"><a href="index.htm#nosotros">Nosotros</a></li>
-					<li role="menuitem" id="menu-item-18742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18742 fusion-dropdown-menu"><a href="productos/index.htm"><span class="menu-text">Productos
-					</span><span class="fusion-caret"><i class="fusion-dropdown-indicator"></i></span></a>
-						<ul id="productos-dropdown">
-							<li><a href="categoria-producto/agricola/index.htm">Agrícola</a></li>
-							<li><a href="categoria-producto/automotriz/index.htm">Automotriz</a></li>
-							<li><a href="categoria-producto/mangueras/index.htm">Mangueras</a></li>
-							<li><a href="categoria-producto/gas-y-petroleo/index.htm">Gas y Petróleo</a></li>
-							<li><a href="categoria-producto/ferroviaria/index.htm">Ferroviaria</a></li>
-							<li><a href="categoria-producto/lecheria/index.htm">Lechería</a></li>
-						</ul>
-					</li>
-					<li style="margin-left: 20px;"><a href="contacto/index.htm">Contacto</a></li>
-					<li style="margin-left: 20px;"><a href="index.htm">Español</a></li>
-					<li style="margin-left: 20px;"><a href="en/index.htm">English</a></li>
-				</ul>
-			</nav>
+            <nav>
+                <span class="menu-buttonnav" onclick="toggleMenu()">☰</span>
+                <ul class="menunav1" id="menu">
+                    <li><a href="index.htm#nosotros">Nosotros</a></li>
+                    <li role="menuitem" id="menu-item-18742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18742 fusion-dropdown-menu">
+                        <a href="productos/index.htm">Productos<span class="fusion-caret"><i class="fusion-dropdown-indicator"></i></span></a>
+                        <ul class="submenunav" id="productos-dropdown">
+                            <li><a href="categoria-producto/agricola/index.htm">Agrícola</a></li>
+                            <li><a href="categoria-producto/automotriz/index.htm">Automotriz</a></li>
+                            <li><a href="categoria-producto/mangueras/index.htm">Mangueras</a></li>
+                            <li><a href="categoria-producto/gas-y-petroleo/index.htm">Gas y Petróleo</a></li>
+                            <li><a href="categoria-producto/ferroviaria/index.htm">Ferroviaria</a></li>
+                            <li><a href="categoria-producto/lecheria/index.htm">Lechería</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto/index.htm">Contacto</a></li>
+                    <li><a href="index.htm">Español</a></li>
+                    <li><a href="en/index.htm">English</a></li>
+                </ul>
+            </nav>
+            <script src="navbar/navbarjs.js"></script>
 		</div>
 	</header>
 

@@ -207,7 +207,7 @@
 { nombre: "mmp516", url: "mmp516"},
 { nombre: "mmp58", url: "mmp58"},
 { nombre: "mmp78", url: "mmp78"},
-{ nombre: "piso para tambo", url: "piso-para-tambo"}
+{ nombre: "cow mats", url: "cow-mats"}
             // Agrega más productos según sea necesario
         ];
        //for file in https://www.buco.com.ar/product/
